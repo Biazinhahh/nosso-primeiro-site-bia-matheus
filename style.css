@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(69deg, #5603AD 0%, #8367C7 100%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho-menu-item{
+    font-family: "Open Sans", sans-serif;
+    color: #E7CFCD;
+    font-weight: 400;
+    font-size: 18px
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #E7CFCD;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrita{
+    display: flex;
+    flex-direction: column;
+    gap: 18px
+}
+
+.conteudo-principal-escrita-titulo{
+    font-family: "Momo Trust Display", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #E7CFCD;
+}
+
+.texto-sobre-nos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.conteudo-principal-escrita-texto{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #E7CFCD;
+}
+
+.texto-sobre-ele{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #E7CFCD;
+    margin-top:  20px;
+}
+
+.conteudo-principal-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #E7CFCD;
+    padding-top: 48px;
+    font-family: "Momo Trust Display", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #E7CFCD;
+    margin-bottom: 16px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 320px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #E7CFCD;
+    
+}
+
+.rodape {
+    border-top: 0.4px solid #E7CFCD;
+    padding-top: 48px;
+    position: relative;
+    padding: 35px;
+    text-align: center; 
+}
+
+.rodape-imagem {
+    height: 40px;
+    position: absolute;
+    left: 20px;   
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+
+.conteudo-principal-escrito-botao{
+    background-color: #E7CFCD;
+    width: 130px;
+    height: 45px;
+    border: none;
+    border-radius: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-principal-imagem {
+    width: 200px;   
+    height: auto;
+    border-radius: 7px;
+    margin-bottom: 7px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 35px;
+}
+
+.cabecalho-nome {
+    font-family: "Momo Trust Display", sans-serif;
+    font-size: 28px;
+    color: #E7CFCD;
+    line-height: 1;
+}
+
+.cabecalho-logo {
+    display: flex;
+    align-items: center;  
+    gap: 10px;            
+}
+
